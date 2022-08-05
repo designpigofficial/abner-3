@@ -1,6 +1,8 @@
-import LanguagesButton from '@/components/languages-button';
 import ThemeButton from '@/components/theme-button';
 import { HStack } from '@chakra-ui/react';
+import { Link, Box } from '@chakra-ui/react';
+import NextLink from 'next/link'
+
 
 const Header = () => {
   return (
@@ -15,7 +17,23 @@ const Header = () => {
       w='100%'
     >
       <ThemeButton />
-      <LanguagesButton />
+      <Box>
+      <NextLink href='/' passHref>
+        <Link mx={10}>home</Link>
+      </NextLink>
+      <NextLink href='/about' passHref>
+        <Link mx={10}>about</Link>
+      </NextLink>
+      <NextLink href='/services' passHref>
+        <Link mx={10}>services</Link>
+      </NextLink>
+      <NextLink href='/projects' passHref>
+        <Link mx={10}>projects</Link>
+      </NextLink>
+      <NextLink href='/contact' passHref>
+        <Link mx={10}>contact</Link>
+      </NextLink>
+      </Box>
     </HStack>
   );
 };

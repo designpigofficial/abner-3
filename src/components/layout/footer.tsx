@@ -1,5 +1,13 @@
-const Footer = () => {
-  return <></>;
-};
+import { Text } from '@chakra-ui/react'
 
-export default Footer;
+const Footer = () => {
+  return (
+  <>
+  <Text>
+    &copy; Abner Development 2022
+  </Text>
+  </>
+  )
+}
+
+export default Footer
