@@ -24,7 +24,7 @@ const IndexPage = () => {
   return (
     <PageLayout
       title='Home'
-      description='Discover a starter kit which includes Next.js, Chakra-UI, Framer-Motion in Typescript. You have few components, Internationalization, SEO and more in this template ! Enjoy coding.'
+      description='A starter kit for projects at Abner Development.'
     >
       <Stack
         spacing={4}
@@ -40,11 +40,11 @@ const IndexPage = () => {
           w={{ base: '100%', md: '50%' }}
           py={{ base: 20, md: 0 }}
         >
-          <Heading as='h1'>Alexandre GOSSARD</Heading>
+          <Heading as='h1'>Brandon</Heading>
           <Divider />
           <Text color='gray.500' align='justify'>
             <Trans i18nKey='excerpt'>
-              <strong>Student</strong>
+              <strong>Loving Husband</strong>
               by day,
               <strong>mad developer</strong>
               by night. Passionate about computer science and
@@ -55,9 +55,7 @@ const IndexPage = () => {
               <ExternalLink href='https://chakra-ui.com/'>
                 Chakra UI
               </ExternalLink>
-              , I develop in order to propose different{' '}
-              <strong>opensource</strong>
-              contents.
+              , Come check it out!
             </Trans>
           </Text>
           <HStack
